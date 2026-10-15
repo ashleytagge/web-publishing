@@ -1,0 +1,43 @@
+nav ul {
+    list-style-type: none;
+  }
+  
+  header,
+  footer {
+    background-color: midnightblue;
+    color: white;
+  }
+
+  header a {
+    color: white;
+  }
+
+  /*This rule was beat by header a and footer a because those selectors are more specific*/
+  a {
+    color: midnightblue;
+  }
+  
+  footer a {
+    color: lemonchiffon;
+  }
+  
+  thead th {
+    background-color: midnightblue;
+    color: white;
+    font-weight: bold;
+  }
+  
+  tbody th {
+    color: darkslateblue;
+    font-style: italic;
+  }
+  
+  .favourite {
+    background-color: lemonchiffon;
+  }
+  
+  a:hover,
+  a:focus {
+    font-weight: bold;
+    text-decoration: underline;
+  }
