@@ -3,6 +3,11 @@
 ## Intent
 I used an agent to help reorganize and prepare my DIGHT 250 repository for the new course structure. The agent moved the previous hub into /archive to keep them together to make sure links still work and I committed that move to git. The starter hub was copied as the new index.html and was personalized with my name and github username.
 
+S02 - Episode Guide Re-Run
+The purpose of this page is to describe the tv series, The Vampire Diaries, and list the first
+season's episode in a table. The page could be used by people who are curious about The Vampire Diaries and want to get more information about it before watching, or it could be used by people
+who think the tv show is ridiculous and would never watch it but are still curious about the plot.
+
 ## AI use
 An agent did the restructuring work. It located the starter code and made suggestions to move that to the root. When given approval, the agent moved the old hub and project folders into an archive and created a new S01 folder.
 
