@@ -1,0 +1,256 @@
+:root {
+  color-scheme: dark;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+  /* Page background: midnight violet */
+  --color-background: #211d2b;
+  /* Text: pale fog */
+  --color-text: #e8e5ed;
+  /* Accent: deep plum */
+  --color-accent: #51465a;
+  /* Highlight: icy moonlight */
+  --color-highlight: #b9c9d8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 20rem;
+  margin: 0;
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+a {
+  color: var(--color-highlight);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  text-decoration-thickness: 0.15em;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--color-highlight);
+  outline-offset: 3px;
+}
+
+.site-header {
+  padding: 1.25rem 1.25rem 3rem;
+  text-align: center;
+  background: linear-gradient(120deg, var(--color-background), var(--color-accent));
+  border-bottom: 1px solid var(--color-highlight);
+}
+
+.site-header nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+}
+
+.site-header nav a,
+.site-header .eyebrow {
+  color: var(--color-text);
+}
+
+.eyebrow {
+  margin: 0 0 0.4rem;
+  color: var(--color-highlight);
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.site-header .eyebrow {
+  margin-top: 2.5rem;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: clamp(2.5rem, 8vw, 5rem);
+}
+
+.intro {
+  max-width: 42rem;
+  margin: 1rem auto 0;
+  color: var(--color-text);
+  font-size: 1.1rem;
+}
+
+main {
+  width: min(100% - 2rem, 68rem);
+  margin: 3rem auto;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.section-heading {
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.palette-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.color-card {
+  overflow: hidden;
+  border: 1px solid var(--color-highlight);
+  border-radius: 0.75rem;
+  background-color: var(--color-background);
+}
+
+.swatch {
+  min-height: 6rem;
+}
+
+.swatch--background {
+  background-color: var(--color-background);
+}
+
+.swatch--text {
+  background-color: var(--color-text);
+}
+
+.swatch--accent {
+  background-color: var(--color-accent);
+}
+
+.swatch--highlight {
+  background-color: var(--color-highlight);
+}
+
+.color-details {
+  padding: 1rem;
+}
+
+.color-details h3 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: 1.2rem;
+}
+
+.color-details p {
+  margin: 0.5rem 0;
+}
+
+.color-values {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.color-values div {
+  display: grid;
+  grid-template-columns: 3.5rem 1fr;
+  gap: 0.5rem;
+  padding: 0.15rem 0;
+}
+
+.color-values dt {
+  font-weight: 700;
+}
+
+.color-values dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.sample {
+  padding: clamp(1.25rem, 4vw, 2rem);
+  border: 1px solid var(--color-highlight);
+  border-radius: 0.75rem;
+  background-color: var(--color-background);
+}
+
+.sample h3 {
+  margin-top: 0;
+  color: var(--color-text);
+  font-size: 1.5rem;
+}
+
+.sample p {
+  max-width: 48rem;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-highlight);
+  border-radius: 0.4rem;
+  background-color: var(--color-accent);
+  color: var(--color-text);
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--color-background);
+  text-align: left;
+}
+
+caption {
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: 700;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  border: 1px solid var(--color-highlight);
+}
+
+th {
+  color: var(--color-text);
+}
+
+.contrast-note {
+  max-width: 52rem;
+  margin-top: 1rem;
+}
+
+footer {
+  padding: 1.5rem 1rem;
+  border-top: 1px solid var(--color-highlight);
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
