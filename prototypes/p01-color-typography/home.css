@@ -1,6 +1,6 @@
 :root {
-  color: #263238;
-  background: #F7F3EA;
+  color: #111111;
+  background: #FFFFFF;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
@@ -10,28 +10,27 @@
 }
 
 body {
-  max-width: 70rem;
   margin: 0 auto;
+  max-width: 70rem;
   padding: 1.25rem;
 }
 
 a {
-  color: #005756;
-  text-decoration-thickness: 0.1em;
+  color: #111111;
+  text-decoration-thickness: 0.08em;
   text-underline-offset: 0.15em;
 }
 
 a:focus-visible {
-  outline: 3px solid #784A00;
+  outline: 3px solid #111111;
   outline-offset: 3px;
 }
 
 .site-header {
-  background: #005756;
-  border-bottom: 0.5rem solid #784A00;
-  border-radius: 1rem;
-  color: #FFF9EF;
-  padding: clamp(1.25rem, 5vw, 3rem);
+  background: #FFFFFF;
+  border-bottom: 1px solid #B8B8B8;
+  color: #111111;
+  padding: 1.5rem 0 2rem;
 }
 
 .site-header nav {
@@ -41,16 +40,21 @@ a:focus-visible {
   margin-bottom: 2rem;
 }
 
-.site-header nav a,
-.site-header a:focus-visible {
-  color: #FFF9EF;
+.site-header nav a {
+  color: #111111;
 }
 
 .eyebrow {
+  color: #555555;
   font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: 0.08em;
+  margin-bottom: 0.4rem;
   text-transform: uppercase;
+}
+
+.site-header .eyebrow {
+  color: #555555;
 }
 
 h1,
@@ -67,22 +71,20 @@ h1 {
 
 .intro {
   font-size: 1.2rem;
-  max-width: 62ch;
+  max-width: 50ch;
 }
 
 main {
   display: grid;
-  gap: 1.5rem;
+  gap: 2rem;
   grid-template-columns: minmax(0, 1fr);
   margin: 2rem 0;
 }
 
-section {
-  background: #FFF9EF;
-  border: 1px solid #784A00;
-  border-radius: 1rem;
+main > section {
+  border-top: 1px solid #B8B8B8;
   min-width: 0;
-  padding: clamp(1rem, 4vw, 2rem);
+  padding: 1.5rem 0;
 }
 
 h2 {
@@ -94,12 +96,9 @@ h3 {
   font-size: 1.25rem;
 }
 
-.eyebrow {
-  margin-bottom: 0.4rem;
-}
-
 .section-heading a {
-  color: #263238;
+  color: #111111;
+  text-decoration-color: #555555;
 }
 
 .font-note {
@@ -124,13 +123,13 @@ table {
 
 caption {
   font-weight: 700;
-  padding: 0.75rem;
+  padding: 0.75rem 0;
   text-align: left;
 }
 
 th,
 td {
-  border: 1px solid #784A00;
+  border: 1px solid #B8B8B8;
   overflow-wrap: anywhere;
   padding: 0.65rem;
   text-align: left;
@@ -138,10 +137,10 @@ td {
 }
 
 th {
-  background: #F7F3EA;
+  background: #F5F5F5;
 }
 
 footer {
-  border-top: 1px solid #784A00;
+  border-top: 1px solid #B8B8B8;
   padding: 1rem 0;
 }
