@@ -1,0 +1,147 @@
+:root {
+  color: #263238;
+  background: #F7F3EA;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+a {
+  color: #005756;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.15em;
+}
+
+a:focus-visible {
+  outline: 3px solid #784A00;
+  outline-offset: 3px;
+}
+
+.site-header {
+  background: #005756;
+  border-bottom: 0.5rem solid #784A00;
+  border-radius: 1rem;
+  color: #FFF9EF;
+  padding: clamp(1.25rem, 5vw, 3rem);
+}
+
+.site-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.site-header nav a,
+.site-header a:focus-visible {
+  color: #FFF9EF;
+}
+
+.eyebrow {
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(2.25rem, 6vw, 4rem);
+  margin: 0;
+  max-width: 18ch;
+}
+
+.intro {
+  font-size: 1.2rem;
+  max-width: 62ch;
+}
+
+main {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: minmax(0, 1fr);
+  margin: 2rem 0;
+}
+
+section {
+  background: #FFF9EF;
+  border: 1px solid #784A00;
+  border-radius: 1rem;
+  min-width: 0;
+  padding: clamp(1rem, 4vw, 2rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+.eyebrow {
+  margin-bottom: 0.4rem;
+}
+
+.section-heading a {
+  color: #263238;
+}
+
+.font-note {
+  max-width: 70ch;
+}
+
+code {
+  overflow-wrap: anywhere;
+}
+
+.table-wrap {
+  max-width: 100%;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  min-width: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+caption {
+  font-weight: 700;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th,
+td {
+  border: 1px solid #784A00;
+  overflow-wrap: anywhere;
+  padding: 0.65rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #F7F3EA;
+}
+
+footer {
+  border-top: 1px solid #784A00;
+  padding: 1rem 0;
+}
