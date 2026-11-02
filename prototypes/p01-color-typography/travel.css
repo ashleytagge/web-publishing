@@ -237,3 +237,37 @@ footer {
     font-size: 2rem;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #F1F7FB;
+    background: #111111;
+  }
+
+  a {
+    color: #9ECBE5;
+  }
+
+  a:focus-visible {
+    outline-color: #F1F7FB;
+  }
+
+  .site-header,
+  .blog-post,
+  .post-copy section + section,
+  footer {
+    border-color: #9ECBE5;
+  }
+
+  .blog-post:nth-child(even) {
+    background: #1E2933;
+  }
+
+  .blog-post:nth-child(even)::before {
+    background: #9ECBE5;
+  }
+
+  .trip-photo figcaption {
+    color: #F1F7FB;
+  }
+}
