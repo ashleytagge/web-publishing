@@ -109,6 +109,10 @@ main {
   margin: 2rem 0;
 }
 
+main > section > p:not(.eyebrow) {
+  max-width: 55ch;
+}
+
 section {
   padding: 2rem 0;
 }
