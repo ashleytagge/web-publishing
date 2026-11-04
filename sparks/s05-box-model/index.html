@@ -10,36 +10,109 @@
     <header class="site-header">
       <nav aria-label="Main navigation">
         <ul class="nav-list">
-          <li><a href="../../index.html">Course home</a></li>
-          <li><a href="../s04-type-scale/">S04 Type Scale</a></li>
-          <li><a href="../../archive/">Archive</a></li>
+          <li><a href="#fish">Fish</a></li>
+          <li><a href="#bugs">Bugs</a></li>
+          <li><a href="#art">Art</a></li>
+          <li><a href="#fossils">Fossils</a></li>
         </ul>
       </nav>
       <p class="eyebrow">S05 · Box Model</p>
       <h1>Mira's Island Museum</h1>
-      <p class="intro">See what Mira has found on her island.</p>
+      <p class="intro">Mira's field journal: every find brings her closer to a full museum!</p>
+      <p class="sample-note">Each page tracks five sample finds, not the full game catalog.</p>
     </header>
 
     <main>
-      <section aria-labelledby="collections-heading">
-        <h2 id="collections-heading">My collections</h2>
-        <p>Items found so far:</p>
-        <ul class="item-list">
-          <li><strong>Fish:</strong> 18 of 80</li>
-          <li><strong>Bugs:</strong> 24 of 80</li>
-          <li><strong>Art:</strong> 7 of 43</li>
-          <li><strong>Fossils:</strong> 30 of 73</li>
-        </ul>
+      <section id="fish" aria-labelledby="fish-heading">
+        <p class="collection-label">Tide-pool log · 01</p>
+        <h2 id="fish-heading"><span aria-hidden="true">🐠</span> Fish</h2>
+        <p class="collection-count"><strong>3</strong> of 5 found</p>
+        <div class="collection-lists">
+          <div class="list-card have-card">
+            <h3>In the museum</h3>
+            <ul class="item-list">
+              <li>Clownfish</li>
+              <li>Sea bass</li>
+              <li>Olive flounder</li>
+            </ul>
+          </div>
+          <div class="list-card missing-card">
+            <h3>Still looking for</h3>
+            <ul class="item-list">
+              <li>Coelacanth</li>
+              <li>Whale shark</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
-      <section aria-labelledby="next-heading">
-        <h2 id="next-heading">Still to find</h2>
-        <p>Keep an eye out for:</p>
-        <ul class="item-list">
-          <li>A clownfish</li>
-          <li>An atlas moth</li>
-          <li>A warm painting</li>
-        </ul>
+      <section id="bugs" aria-labelledby="bugs-heading">
+        <p class="collection-label">Night-garden notes · 02</p>
+        <h2 id="bugs-heading"><span aria-hidden="true">🦋</span> Bugs</h2>
+        <p class="collection-count"><strong>4</strong> of 6 found</p>
+        <div class="collection-lists">
+          <div class="list-card have-card">
+            <h3>In the museum</h3>
+            <ul class="item-list">
+              <li>Atlas moth</li>
+              <li>Common butterfly</li>
+              <li>Ladybug</li>
+              <li>Orchid mantis</li>
+            </ul>
+          </div>
+          <div class="list-card missing-card">
+            <h3>Still looking for</h3>
+            <ul class="item-list">
+              <li>Golden stag</li>
+              <li>Giraffe stag</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="art" aria-labelledby="art-heading">
+        <p class="collection-label">Gallery card · 03</p>
+        <h2 id="art-heading"><span aria-hidden="true">🖼️</span> Art</h2>
+        <p class="collection-count"><strong>2</strong> of 5 found</p>
+        <div class="collection-lists">
+          <div class="list-card have-card">
+            <h3>In the museum</h3>
+            <ul class="item-list">
+              <li>Warm Painting</li>
+              <li>Flowery Painting</li>
+            </ul>
+          </div>
+          <div class="list-card missing-card">
+            <h3>Still looking for</h3>
+            <ul class="item-list">
+              <li>Famous Painting</li>
+              <li>Great Statue</li>
+              <li>Wild Painting, right half</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="fossils" aria-labelledby="fossils-heading">
+        <p class="collection-label">Dig-site record · 04</p>
+        <h2 id="fossils-heading"><span aria-hidden="true">🦴</span> Fossils</h2>
+        <p class="collection-count"><strong>1</strong> of 4 found</p>
+        <div class="collection-lists">
+          <div class="list-card have-card">
+            <h3>In the museum</h3>
+            <ul class="item-list">
+              <li>Amber</li>
+            </ul>
+          </div>
+          <div class="list-card missing-card">
+            <h3>Still looking for</h3>
+            <ul class="item-list">
+              <li>T. rex skull</li>
+              <li>Ammonite</li>
+              <li>Triceratops tail</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
   </body>
