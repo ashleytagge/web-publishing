@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #23342b;
+  background-color: #f7f5e8;
+}
+
+body {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.site-header {
+  padding: 1rem;
+  color: #ffffff;
+  background-color: #174f3a;
+  border-radius: 0.5rem;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.nav-list a {
+  display: inline-block;
+  padding: 0.625rem 1rem;
+  color: #ffffff;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  border-radius: 0.25rem;
+}
+
+a:focus-visible {
+  outline: 0.2rem solid #ffdf57;
+  outline-offset: 0.2rem;
+}
+
+.eyebrow {
+  margin: 0.5rem 0 0;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0.25rem 0;
+  font-size: 2rem;
+}
+
+.intro {
+  margin: 0;
+}
+
+main {
+  margin-top: 1rem;
+}
+
+section {
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 0.125rem solid #527a54;
+  border-radius: 0.5rem;
+}
+
+section + section {
+  margin-top: 1rem;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.item-list li + li {
+  margin-top: 0.5rem;
+}
