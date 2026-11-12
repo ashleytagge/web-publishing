@@ -193,11 +193,11 @@ figcaption {
   max-width: 68ch;
 }
 
-.post-copy section {
+.post-copy .post-section {
   padding: 1rem 0;
 }
 
-.post-copy section + section {
+.post-copy .post-section + .post-section {
   border-top: 1px solid #1E4D6B;
 }
 
