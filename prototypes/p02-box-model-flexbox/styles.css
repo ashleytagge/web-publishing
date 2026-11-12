@@ -41,7 +41,7 @@ a:focus-visible {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem 2rem;
+  gap: 1rem 1.5rem;
   padding: 1.5rem;
   color: #fffaf0;
   background-color: #234331;
@@ -90,8 +90,8 @@ a:focus-visible {
 main {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  margin-top: 2rem;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .welcome,
@@ -221,7 +221,7 @@ main {
 }
 
 footer {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   padding: 1.5rem;
   color: #fffaf0;
   background-color: #702b35;
